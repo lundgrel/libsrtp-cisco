@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\repos\libsrtp-cisco\srtp\srtp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\cipher\cipher.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\cipher\cipher_test_cases.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\cipher\null_cipher.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\cipher\aes.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\cipher\aes_icm.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\hash\auth.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\hash\auth_test_cases.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\hash\null_auth.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\hash\hmac.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\hash\sha1.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\kernel\alloc.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\kernel\crypto_kernel.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\kernel\err.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\kernel\key.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\math\datatypes.c">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\replay\rdb.c">
+      <Filter>src\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\libsrtp-cisco\crypto\replay\rdbx.c">
+      <Filter>src\Replay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\cipher\cipher_test_cases.h">
+      <Filter>src\Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\hash\auth_test_cases.h">
+      <Filter>src\Hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\aes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\aes_icm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\alloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\auth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\cipher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\cipher_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\crypto_kernel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\crypto_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\datatypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\err.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\hmac.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\integers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\key.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\null_auth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\null_cipher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\rdb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\rdbx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\crypto\include\sha1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\include\srtp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\include\srtp_priv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\repos\libsrtp-cisco\build\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\repos\libsrtp-cisco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7E965BA4-5BCD-3C61-8059-FB9666EEAAF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{98FF4E87-0548-3154-8572-A61A76EC030B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ciphers">
+      <UniqueIdentifier>{044C6AEA-9CCA-3C44-9B70-A352CDBF0A7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Hashes">
+      <UniqueIdentifier>{E70E7B77-2A4F-3F00-9DF1-51DCD24E2CC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Kernel">
+      <UniqueIdentifier>{DC0FE948-1194-3C4F-B998-9D817B242828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{7D9A8E82-78CD-32BC-9128-427408158513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Replay">
+      <UniqueIdentifier>{D8BDE55F-EC49-3205-ACC4-5ED89DE5647E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

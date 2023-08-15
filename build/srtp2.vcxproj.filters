@@ -1,156 +1,156 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(ProjectDir)..\srtp\srtp.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\srtp\srtp.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\cipher\cipher.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\cipher\cipher.c">
       <Filter>src\Ciphers</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\cipher\cipher_test_cases.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\cipher\cipher_test_cases.c">
       <Filter>src\Ciphers</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\cipher\null_cipher.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\cipher\null_cipher.c">
       <Filter>src\Ciphers</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\cipher\aes.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\cipher\aes.c">
       <Filter>src\Ciphers</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\cipher\aes_icm.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\cipher\aes_icm.c">
       <Filter>src\Ciphers</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\hash\auth.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\hash\auth.c">
       <Filter>src\Hashes</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\hash\auth_test_cases.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\hash\auth_test_cases.c">
       <Filter>src\Hashes</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\hash\null_auth.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\hash\null_auth.c">
       <Filter>src\Hashes</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\hash\hmac.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\hash\hmac.c">
       <Filter>src\Hashes</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\hash\sha1.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\hash\sha1.c">
       <Filter>src\Hashes</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\kernel\alloc.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\kernel\alloc.c">
       <Filter>src\Kernel</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\kernel\crypto_kernel.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\kernel\crypto_kernel.c">
       <Filter>src\Kernel</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\kernel\err.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\kernel\err.c">
       <Filter>src\Kernel</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\kernel\key.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\kernel\key.c">
       <Filter>src\Kernel</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\math\datatypes.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\math\datatypes.c">
       <Filter>src\Math</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\replay\rdb.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\replay\rdb.c">
       <Filter>src\Replay</Filter>
     </ClCompile>
-    <ClCompile Include="$(ProjectDir)..\crypto\replay\rdbx.c">
+    <ClCompile Include="E:\src\libsrtp-cisco\crypto\replay\rdbx.c">
       <Filter>src\Replay</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(ProjectDir)..\crypto\cipher\cipher_test_cases.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\cipher\cipher_test_cases.h">
       <Filter>src\Ciphers</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\hash\auth_test_cases.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\hash\auth_test_cases.h">
       <Filter>src\Hashes</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\aes.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\aes.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\aes_icm.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\aes_icm.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\alloc.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\alloc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\auth.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\auth.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\cipher.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\cipher.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\cipher_types.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\cipher_types.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\crypto_kernel.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\crypto_kernel.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\crypto_types.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\crypto_types.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\datatypes.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\datatypes.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\err.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\err.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\hmac.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\hmac.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\integers.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\integers.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\key.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\key.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\null_auth.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\null_auth.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\null_cipher.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\null_cipher.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\rdb.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\rdb.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\rdbx.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\rdbx.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\crypto\include\sha1.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\crypto\include\sha1.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\include\srtp.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\include\srtp.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)..\include\srtp_priv.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\include\srtp_priv.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="$(ProjectDir)config.h">
+    <ClInclude Include="E:\src\libsrtp-cisco\build\config.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="$(ProjectDir)..\CMakeLists.txt" />
+    <CustomBuild Include="E:\src\libsrtp-cisco\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{592602A4-922B-3CAF-9D86-76D71788B1BF}</UniqueIdentifier>
+      <UniqueIdentifier>{7BB8AFBC-9E9C-3BA6-A247-52DD1370829F}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{7092353F-785D-3C95-8D06-F68E87F3AC03}</UniqueIdentifier>
+      <UniqueIdentifier>{D6207B17-A607-30A7-A73F-4F48686E0539}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Ciphers">
-      <UniqueIdentifier>{96066288-C733-30FF-A962-5023DDA18318}</UniqueIdentifier>
+      <UniqueIdentifier>{15EA8A99-961F-320E-88CC-3F2F81F52D5B}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Hashes">
-      <UniqueIdentifier>{72C50DC0-C272-3032-8EAA-81D05CABFDF6}</UniqueIdentifier>
+      <UniqueIdentifier>{AFF7F1EE-D871-37B1-A080-FF8BF59AD460}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Kernel">
-      <UniqueIdentifier>{5B40EDBA-E084-3D37-9FFC-D4B4605A3D96}</UniqueIdentifier>
+      <UniqueIdentifier>{F41AF71E-FED5-3820-8D90-FD276D64B7B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Math">
-      <UniqueIdentifier>{334D5A86-C49E-3312-A3C3-81F96147A7B7}</UniqueIdentifier>
+      <UniqueIdentifier>{82E49EE8-BEFF-340A-BF8C-068C8A81EA0C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Replay">
-      <UniqueIdentifier>{EA8AFC6C-B2EB-38D2-B071-2FEF9F8EF13A}</UniqueIdentifier>
+      <UniqueIdentifier>{D42704B7-B2BE-3511-B06B-CD7F57D85FFE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

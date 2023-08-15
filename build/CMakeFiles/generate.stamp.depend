@@ -26,10 +26,10 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtens
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/TestBigEndian.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
-S:/repos/libsrtp-cisco/CMakeLists.txt
-S:/repos/libsrtp-cisco/Config.cmake.in
-S:/repos/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
-S:/repos/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
-S:/repos/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
-S:/repos/libsrtp-cisco/cmake/FindPCAP.cmake
-S:/repos/libsrtp-cisco/config_in_cmake.h
+E:/src/libsrtp-cisco/CMakeLists.txt
+E:/src/libsrtp-cisco/Config.cmake.in
+E:/src/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
+E:/src/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
+E:/src/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
+E:/src/libsrtp-cisco/cmake/FindPCAP.cmake
+E:/src/libsrtp-cisco/config_in_cmake.h

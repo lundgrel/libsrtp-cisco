@@ -16,6 +16,7 @@ old?
 *.so
 *.so.*
 *.dylib
+*.bin
 
 # Executables
 *.exe

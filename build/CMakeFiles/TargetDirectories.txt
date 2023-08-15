@@ -1,0 +1,15 @@
+S:/repos/libsrtp-cisco/build/CMakeFiles/srtp2.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/aes_calc.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/sha1_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/datatypes_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/cipher_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/kernel_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/rdbx_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/replay_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/roc_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/srtp_driver.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/test_srtp.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/RUN_TESTS.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/INSTALL.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/ALL_BUILD.dir
+S:/repos/libsrtp-cisco/build/CMakeFiles/ZERO_CHECK.dir

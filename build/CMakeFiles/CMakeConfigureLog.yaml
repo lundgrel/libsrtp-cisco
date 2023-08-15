@@ -1,0 +1,1521 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 2023-08-10 00:31:04.
+      
+      Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        S:/repos/libsrtp-cisco/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lnw48j"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lnw48j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lnw48j
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_06d37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:06.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnw48j\\cmTC_06d37.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_06d37.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnw48j\\Debug\\".
+          Creating directory "cmTC_06d37.dir\\Debug\\cmTC_06d37.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_06d37.dir\\Debug\\cmTC_06d37.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_06d37.dir\\Debug\\cmTC_06d37.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06d37.dir\\Debug\\\\" /Fd"cmTC_06d37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06d37.dir\\Debug\\\\" /Fd"cmTC_06d37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnw48j\\Debug\\cmTC_06d37.exe" /INCREMENTAL /ILK:"cmTC_06d37.dir\\Debug\\cmTC_06d37.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lnw48j/Debug/cmTC_06d37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lnw48j/Debug/cmTC_06d37.lib" /MACHINE:X64  /machine:x64 cmTC_06d37.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_06d37.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnw48j\\Debug\\cmTC_06d37.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_06d37.dir\\Debug\\cmTC_06d37.tlog\\unsuccessfulbuild".
+          Touching "cmTC_06d37.dir\\Debug\\cmTC_06d37.tlog\\cmTC_06d37.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnw48j\\cmTC_06d37.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:24 (check_include_file)"
+    checks:
+      - "Looking for arpa/inet.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-47igix"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-47igix"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_ARPA_INET_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-47igix
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_17d32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:07.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\cmTC_17d32.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_17d32.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\Debug\\".
+          Creating directory "cmTC_17d32.dir\\Debug\\cmTC_17d32.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_17d32.dir\\Debug\\cmTC_17d32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_17d32.dir\\Debug\\cmTC_17d32.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17d32.dir\\Debug\\\\" /Fd"cmTC_17d32.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\cmTC_17d32.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17d32.dir\\Debug\\\\" /Fd"cmTC_17d32.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\CheckIncludeFile.c"
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\cmTC_17d32.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\cmTC_17d32.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47igix\\cmTC_17d32.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:25 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-suyaxw"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-suyaxw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-suyaxw
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_19224.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:08.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\cmTC_19224.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19224.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\Debug\\".
+          Creating directory "cmTC_19224.dir\\Debug\\cmTC_19224.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19224.dir\\Debug\\cmTC_19224.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_19224.dir\\Debug\\cmTC_19224.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19224.dir\\Debug\\\\" /Fd"cmTC_19224.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19224.dir\\Debug\\\\" /Fd"cmTC_19224.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\CheckIncludeFile.c"
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'byteswap.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\cmTC_19224.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\cmTC_19224.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\cmTC_19224.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'byteswap.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-suyaxw\\cmTC_19224.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:26 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-htnbt5"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-htnbt5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-htnbt5
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27d83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:08.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\cmTC_27d83.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_27d83.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\Debug\\".
+          Creating directory "cmTC_27d83.dir\\Debug\\cmTC_27d83.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_27d83.dir\\Debug\\cmTC_27d83.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27d83.dir\\Debug\\cmTC_27d83.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d83.dir\\Debug\\\\" /Fd"cmTC_27d83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d83.dir\\Debug\\\\" /Fd"cmTC_27d83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\Debug\\cmTC_27d83.exe" /INCREMENTAL /ILK:"cmTC_27d83.dir\\Debug\\cmTC_27d83.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-htnbt5/Debug/cmTC_27d83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-htnbt5/Debug/cmTC_27d83.lib" /MACHINE:X64  /machine:x64 cmTC_27d83.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_27d83.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\Debug\\cmTC_27d83.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_27d83.dir\\Debug\\cmTC_27d83.tlog\\unsuccessfulbuild".
+          Touching "cmTC_27d83.dir\\Debug\\cmTC_27d83.tlog\\cmTC_27d83.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htnbt5\\cmTC_27d83.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:27 (check_include_file)"
+    checks:
+      - "Looking for machine/types.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zs3tp2"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zs3tp2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_MACHINE_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zs3tp2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4e890.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:09.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\cmTC_4e890.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4e890.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\Debug\\".
+          Creating directory "cmTC_4e890.dir\\Debug\\cmTC_4e890.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4e890.dir\\Debug\\cmTC_4e890.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4e890.dir\\Debug\\cmTC_4e890.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e890.dir\\Debug\\\\" /Fd"cmTC_4e890.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'machine/types.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\cmTC_4e890.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e890.dir\\Debug\\\\" /Fd"cmTC_4e890.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\CheckIncludeFile.c"
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\cmTC_4e890.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\cmTC_4e890.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'machine/types.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3tp2\\cmTC_4e890.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:28 (check_include_file)"
+    checks:
+      - "Looking for netinet/in.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mduchs"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mduchs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_NETINET_IN_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mduchs
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3af33.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:10.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\cmTC_3af33.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3af33.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\Debug\\".
+          Creating directory "cmTC_3af33.dir\\Debug\\cmTC_3af33.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3af33.dir\\Debug\\cmTC_3af33.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3af33.dir\\Debug\\cmTC_3af33.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3af33.dir\\Debug\\\\" /Fd"cmTC_3af33.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\cmTC_3af33.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3af33.dir\\Debug\\\\" /Fd"cmTC_3af33.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\CheckIncludeFile.c"
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\cmTC_3af33.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\cmTC_3af33.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mduchs\\cmTC_3af33.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:29 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-6c840r"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-6c840r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-6c840r
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a13bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:10.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\cmTC_a13bd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a13bd.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\Debug\\".
+          Creating directory "cmTC_a13bd.dir\\Debug\\cmTC_a13bd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a13bd.dir\\Debug\\cmTC_a13bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a13bd.dir\\Debug\\cmTC_a13bd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a13bd.dir\\Debug\\\\" /Fd"cmTC_a13bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a13bd.dir\\Debug\\\\" /Fd"cmTC_a13bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\Debug\\cmTC_a13bd.exe" /INCREMENTAL /ILK:"cmTC_a13bd.dir\\Debug\\cmTC_a13bd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-6c840r/Debug/cmTC_a13bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-6c840r/Debug/cmTC_a13bd.lib" /MACHINE:X64  /machine:x64 cmTC_a13bd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a13bd.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\Debug\\cmTC_a13bd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a13bd.dir\\Debug\\cmTC_a13bd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a13bd.dir\\Debug\\cmTC_a13bd.tlog\\cmTC_a13bd.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6c840r\\cmTC_a13bd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:30 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-ryu95w"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-ryu95w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-ryu95w
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_86799.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:11.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\cmTC_86799.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_86799.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\Debug\\".
+          Creating directory "cmTC_86799.dir\\Debug\\cmTC_86799.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_86799.dir\\Debug\\cmTC_86799.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_86799.dir\\Debug\\cmTC_86799.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86799.dir\\Debug\\\\" /Fd"cmTC_86799.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86799.dir\\Debug\\\\" /Fd"cmTC_86799.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\Debug\\cmTC_86799.exe" /INCREMENTAL /ILK:"cmTC_86799.dir\\Debug\\cmTC_86799.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-ryu95w/Debug/cmTC_86799.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-ryu95w/Debug/cmTC_86799.lib" /MACHINE:X64  /machine:x64 cmTC_86799.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_86799.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\Debug\\cmTC_86799.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_86799.dir\\Debug\\cmTC_86799.tlog\\unsuccessfulbuild".
+          Touching "cmTC_86799.dir\\Debug\\cmTC_86799.tlog\\cmTC_86799.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ryu95w\\cmTC_86799.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:31 (check_include_file)"
+    checks:
+      - "Looking for sys/int_types.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-n69efx"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-n69efx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SYS_INT_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-n69efx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3ff8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:12.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\cmTC_3ff8a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3ff8a.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\Debug\\".
+          Creating directory "cmTC_3ff8a.dir\\Debug\\cmTC_3ff8a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3ff8a.dir\\Debug\\cmTC_3ff8a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3ff8a.dir\\Debug\\cmTC_3ff8a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ff8a.dir\\Debug\\\\" /Fd"cmTC_3ff8a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/int_types.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\cmTC_3ff8a.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ff8a.dir\\Debug\\\\" /Fd"cmTC_3ff8a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\CheckIncludeFile.c"
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\cmTC_3ff8a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\cmTC_3ff8a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/int_types.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n69efx\\cmTC_3ff8a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:32 (check_include_file)"
+    checks:
+      - "Looking for sys/socket.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-8tla9f"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-8tla9f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SYS_SOCKET_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-8tla9f
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0a3fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:13.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\cmTC_0a3fe.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0a3fe.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\Debug\\".
+          Creating directory "cmTC_0a3fe.dir\\Debug\\cmTC_0a3fe.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0a3fe.dir\\Debug\\cmTC_0a3fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0a3fe.dir\\Debug\\cmTC_0a3fe.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a3fe.dir\\Debug\\\\" /Fd"cmTC_0a3fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\cmTC_0a3fe.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a3fe.dir\\Debug\\\\" /Fd"cmTC_0a3fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\CheckIncludeFile.c"
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\cmTC_0a3fe.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\cmTC_0a3fe.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tla9f\\cmTC_0a3fe.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:33 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-f632eu"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-f632eu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-f632eu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d15f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:13.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\cmTC_d15f1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d15f1.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\Debug\\".
+          Creating directory "cmTC_d15f1.dir\\Debug\\cmTC_d15f1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d15f1.dir\\Debug\\cmTC_d15f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d15f1.dir\\Debug\\cmTC_d15f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d15f1.dir\\Debug\\\\" /Fd"cmTC_d15f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d15f1.dir\\Debug\\\\" /Fd"cmTC_d15f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\Debug\\cmTC_d15f1.exe" /INCREMENTAL /ILK:"cmTC_d15f1.dir\\Debug\\cmTC_d15f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-f632eu/Debug/cmTC_d15f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-f632eu/Debug/cmTC_d15f1.lib" /MACHINE:X64  /machine:x64 cmTC_d15f1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d15f1.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\Debug\\cmTC_d15f1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d15f1.dir\\Debug\\cmTC_d15f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d15f1.dir\\Debug\\cmTC_d15f1.tlog\\cmTC_d15f1.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f632eu\\cmTC_d15f1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:34 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-it47j5"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-it47j5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-it47j5
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_44c62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:14.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\cmTC_44c62.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_44c62.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\Debug\\".
+          Creating directory "cmTC_44c62.dir\\Debug\\cmTC_44c62.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_44c62.dir\\Debug\\cmTC_44c62.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_44c62.dir\\Debug\\cmTC_44c62.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c62.dir\\Debug\\\\" /Fd"cmTC_44c62.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c62.dir\\Debug\\\\" /Fd"cmTC_44c62.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\CheckIncludeFile.c"
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\cmTC_44c62.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\cmTC_44c62.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\cmTC_44c62.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it47j5\\cmTC_44c62.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for windows.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lpbzkm"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lpbzkm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lpbzkm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_981f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:15.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\cmTC_981f5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_981f5.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\Debug\\".
+          Creating directory "cmTC_981f5.dir\\Debug\\cmTC_981f5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_981f5.dir\\Debug\\cmTC_981f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_981f5.dir\\Debug\\cmTC_981f5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_981f5.dir\\Debug\\\\" /Fd"cmTC_981f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_981f5.dir\\Debug\\\\" /Fd"cmTC_981f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\Debug\\cmTC_981f5.exe" /INCREMENTAL /ILK:"cmTC_981f5.dir\\Debug\\cmTC_981f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lpbzkm/Debug/cmTC_981f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-lpbzkm/Debug/cmTC_981f5.lib" /MACHINE:X64  /machine:x64 cmTC_981f5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_981f5.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\Debug\\cmTC_981f5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_981f5.dir\\Debug\\cmTC_981f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_981f5.dir\\Debug\\cmTC_981f5.tlog\\cmTC_981f5.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpbzkm\\cmTC_981f5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for winsock2.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-nr47hk"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-nr47hk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_WINSOCK2_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-nr47hk
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_947e9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:16.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\cmTC_947e9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_947e9.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\Debug\\".
+          Creating directory "cmTC_947e9.dir\\Debug\\cmTC_947e9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_947e9.dir\\Debug\\cmTC_947e9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_947e9.dir\\Debug\\cmTC_947e9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_947e9.dir\\Debug\\\\" /Fd"cmTC_947e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_947e9.dir\\Debug\\\\" /Fd"cmTC_947e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\Debug\\cmTC_947e9.exe" /INCREMENTAL /ILK:"cmTC_947e9.dir\\Debug\\cmTC_947e9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-nr47hk/Debug/cmTC_947e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-nr47hk/Debug/cmTC_947e9.lib" /MACHINE:X64  /machine:x64 cmTC_947e9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_947e9.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\Debug\\cmTC_947e9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_947e9.dir\\Debug\\cmTC_947e9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_947e9.dir\\Debug\\cmTC_947e9.tlog\\cmTC_947e9.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr47hk\\cmTC_947e9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:38 (check_function_exists)"
+    checks:
+      - "Looking for sigaction"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-0bfaj8"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-0bfaj8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SIGACTION"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-0bfaj8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c7734.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:17.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c7734.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\Debug\\".
+          Creating directory "cmTC_c7734.dir\\Debug\\cmTC_c7734.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c7734.dir\\Debug\\cmTC_c7734.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c7734.dir\\Debug\\cmTC_c7734.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigaction /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7734.dir\\Debug\\\\" /Fd"cmTC_c7734.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigaction /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7734.dir\\Debug\\\\" /Fd"cmTC_c7734.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\Debug\\cmTC_c7734.exe" /INCREMENTAL /ILK:"cmTC_c7734.dir\\Debug\\cmTC_c7734.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-0bfaj8/Debug/cmTC_c7734.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-0bfaj8/Debug/cmTC_c7734.lib" /MACHINE:X64  /machine:x64 cmTC_c7734.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigaction referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj]
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\Debug\\cmTC_c7734.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigaction referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj]
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\Debug\\cmTC_c7734.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0bfaj8\\cmTC_c7734.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:39 (check_function_exists)"
+    checks:
+      - "Looking for inet_aton"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y9mhw8"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y9mhw8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_INET_ATON"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y9mhw8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_af09c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:18.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_af09c.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\Debug\\".
+          Creating directory "cmTC_af09c.dir\\Debug\\cmTC_af09c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_af09c.dir\\Debug\\cmTC_af09c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_af09c.dir\\Debug\\cmTC_af09c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_aton /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af09c.dir\\Debug\\\\" /Fd"cmTC_af09c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_aton /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af09c.dir\\Debug\\\\" /Fd"cmTC_af09c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\Debug\\cmTC_af09c.exe" /INCREMENTAL /ILK:"cmTC_af09c.dir\\Debug\\cmTC_af09c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y9mhw8/Debug/cmTC_af09c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y9mhw8/Debug/cmTC_af09c.lib" /MACHINE:X64  /machine:x64 cmTC_af09c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_aton referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj]
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\Debug\\cmTC_af09c.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_aton referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj]
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\Debug\\cmTC_af09c.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9mhw8\\cmTC_af09c.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:40 (check_function_exists)"
+    checks:
+      - "Looking for inet_pton"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-m7u9q1"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-m7u9q1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_INET_PTON"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-m7u9q1
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d54c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:18.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9d54c.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\Debug\\".
+          Creating directory "cmTC_9d54c.dir\\Debug\\cmTC_9d54c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9d54c.dir\\Debug\\cmTC_9d54c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9d54c.dir\\Debug\\cmTC_9d54c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d54c.dir\\Debug\\\\" /Fd"cmTC_9d54c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d54c.dir\\Debug\\\\" /Fd"cmTC_9d54c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\Debug\\cmTC_9d54c.exe" /INCREMENTAL /ILK:"cmTC_9d54c.dir\\Debug\\cmTC_9d54c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-m7u9q1/Debug/cmTC_9d54c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-m7u9q1/Debug/cmTC_9d54c.lib" /MACHINE:X64  /machine:x64 cmTC_9d54c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj]
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\Debug\\cmTC_9d54c.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj]
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\Debug\\cmTC_9d54c.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7u9q1\\cmTC_9d54c.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:41 (check_function_exists)"
+    checks:
+      - "Looking for usleep"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-xz6rqn"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-xz6rqn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_USLEEP"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-xz6rqn
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b9873.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:19.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b9873.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\Debug\\".
+          Creating directory "cmTC_b9873.dir\\Debug\\cmTC_b9873.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9873.dir\\Debug\\cmTC_b9873.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9873.dir\\Debug\\cmTC_b9873.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=usleep /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9873.dir\\Debug\\\\" /Fd"cmTC_b9873.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=usleep /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9873.dir\\Debug\\\\" /Fd"cmTC_b9873.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\Debug\\cmTC_b9873.exe" /INCREMENTAL /ILK:"cmTC_b9873.dir\\Debug\\cmTC_b9873.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-xz6rqn/Debug/cmTC_b9873.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-xz6rqn/Debug/cmTC_b9873.lib" /MACHINE:X64  /machine:x64 cmTC_b9873.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol usleep referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj]
+        S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\Debug\\cmTC_b9873.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj]
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol usleep referenced in function main [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj]
+          S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\Debug\\cmTC_b9873.exe : fatal error LNK1120: 1 unresolved externals [S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz6rqn\\cmTC_b9873.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "CMakeLists.txt:43 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y80uo3"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y80uo3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y80uo3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_35bee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:20.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\cmTC_35bee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_35bee.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\Debug\\".
+          Creating directory "cmTC_35bee.dir\\Debug\\cmTC_35bee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35bee.dir\\Debug\\cmTC_35bee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35bee.dir\\Debug\\cmTC_35bee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35bee.dir\\Debug\\\\" /Fd"cmTC_35bee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35bee.dir\\Debug\\\\" /Fd"cmTC_35bee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\Debug\\cmTC_35bee.exe" /INCREMENTAL /ILK:"cmTC_35bee.dir\\Debug\\cmTC_35bee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y80uo3/Debug/cmTC_35bee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-y80uo3/Debug/cmTC_35bee.lib" /MACHINE:X64  /machine:x64 cmTC_35bee.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_35bee.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\Debug\\cmTC_35bee.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_35bee.dir\\Debug\\cmTC_35bee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_35bee.dir\\Debug\\cmTC_35bee.tlog\\cmTC_35bee.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y80uo3\\cmTC_35bee.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:43 (check_type_size)"
+    checks:
+      - "Check size of uint8_t"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zzmniy"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zzmniy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_UINT8_T"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zzmniy
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27910.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:21.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\cmTC_27910.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_27910.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\Debug\\".
+          Creating directory "cmTC_27910.dir\\Debug\\cmTC_27910.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_27910.dir\\Debug\\cmTC_27910.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27910.dir\\Debug\\cmTC_27910.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27910.dir\\Debug\\\\" /Fd"cmTC_27910.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\UINT8_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          UINT8_T.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27910.dir\\Debug\\\\" /Fd"cmTC_27910.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\UINT8_T.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\Debug\\cmTC_27910.exe" /INCREMENTAL /ILK:"cmTC_27910.dir\\Debug\\cmTC_27910.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zzmniy/Debug/cmTC_27910.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zzmniy/Debug/cmTC_27910.lib" /MACHINE:X64  /machine:x64 cmTC_27910.dir\\Debug\\UINT8_T.obj
+          cmTC_27910.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\Debug\\cmTC_27910.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_27910.dir\\Debug\\cmTC_27910.tlog\\unsuccessfulbuild".
+          Touching "cmTC_27910.dir\\Debug\\cmTC_27910.tlog\\cmTC_27910.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzmniy\\cmTC_27910.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:44 (check_type_size)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-i59w2k"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-i59w2k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_UINT16_T"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-i59w2k
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8a348.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:22.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\cmTC_8a348.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8a348.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\Debug\\".
+          Creating directory "cmTC_8a348.dir\\Debug\\cmTC_8a348.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8a348.dir\\Debug\\cmTC_8a348.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8a348.dir\\Debug\\cmTC_8a348.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a348.dir\\Debug\\\\" /Fd"cmTC_8a348.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\UINT16_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          UINT16_T.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a348.dir\\Debug\\\\" /Fd"cmTC_8a348.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\UINT16_T.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\Debug\\cmTC_8a348.exe" /INCREMENTAL /ILK:"cmTC_8a348.dir\\Debug\\cmTC_8a348.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-i59w2k/Debug/cmTC_8a348.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-i59w2k/Debug/cmTC_8a348.lib" /MACHINE:X64  /machine:x64 cmTC_8a348.dir\\Debug\\UINT16_T.obj
+          cmTC_8a348.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\Debug\\cmTC_8a348.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8a348.dir\\Debug\\cmTC_8a348.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8a348.dir\\Debug\\cmTC_8a348.tlog\\cmTC_8a348.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i59w2k\\cmTC_8a348.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:45 (check_type_size)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-9vrizs"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-9vrizs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_UINT32_T"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-9vrizs
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_644c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:23.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\cmTC_644c8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_644c8.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\Debug\\".
+          Creating directory "cmTC_644c8.dir\\Debug\\cmTC_644c8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_644c8.dir\\Debug\\cmTC_644c8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_644c8.dir\\Debug\\cmTC_644c8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_644c8.dir\\Debug\\\\" /Fd"cmTC_644c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\UINT32_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          UINT32_T.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_644c8.dir\\Debug\\\\" /Fd"cmTC_644c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\UINT32_T.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\Debug\\cmTC_644c8.exe" /INCREMENTAL /ILK:"cmTC_644c8.dir\\Debug\\cmTC_644c8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-9vrizs/Debug/cmTC_644c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-9vrizs/Debug/cmTC_644c8.lib" /MACHINE:X64  /machine:x64 cmTC_644c8.dir\\Debug\\UINT32_T.obj
+          cmTC_644c8.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\Debug\\cmTC_644c8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_644c8.dir\\Debug\\cmTC_644c8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_644c8.dir\\Debug\\cmTC_644c8.tlog\\cmTC_644c8.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9vrizs\\cmTC_644c8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:46 (check_type_size)"
+    checks:
+      - "Check size of uint64_t"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zfdprb"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zfdprb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_UINT64_T"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zfdprb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fa61e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:24.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\cmTC_fa61e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fa61e.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\Debug\\".
+          Creating directory "cmTC_fa61e.dir\\Debug\\cmTC_fa61e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fa61e.dir\\Debug\\cmTC_fa61e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fa61e.dir\\Debug\\cmTC_fa61e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa61e.dir\\Debug\\\\" /Fd"cmTC_fa61e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\UINT64_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          UINT64_T.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa61e.dir\\Debug\\\\" /Fd"cmTC_fa61e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\UINT64_T.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\Debug\\cmTC_fa61e.exe" /INCREMENTAL /ILK:"cmTC_fa61e.dir\\Debug\\cmTC_fa61e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zfdprb/Debug/cmTC_fa61e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-zfdprb/Debug/cmTC_fa61e.lib" /MACHINE:X64  /machine:x64 cmTC_fa61e.dir\\Debug\\UINT64_T.obj
+          cmTC_fa61e.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\Debug\\cmTC_fa61e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fa61e.dir\\Debug\\cmTC_fa61e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fa61e.dir\\Debug\\cmTC_fa61e.tlog\\cmTC_fa61e.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdprb\\cmTC_fa61e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:47 (check_type_size)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-l5q9r4"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-l5q9r4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_INT32_T"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-l5q9r4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f37ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:26.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\cmTC_f37ab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f37ab.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\Debug\\".
+          Creating directory "cmTC_f37ab.dir\\Debug\\cmTC_f37ab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f37ab.dir\\Debug\\cmTC_f37ab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f37ab.dir\\Debug\\cmTC_f37ab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f37ab.dir\\Debug\\\\" /Fd"cmTC_f37ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\INT32_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          INT32_T.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f37ab.dir\\Debug\\\\" /Fd"cmTC_f37ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\INT32_T.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\Debug\\cmTC_f37ab.exe" /INCREMENTAL /ILK:"cmTC_f37ab.dir\\Debug\\cmTC_f37ab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-l5q9r4/Debug/cmTC_f37ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-l5q9r4/Debug/cmTC_f37ab.lib" /MACHINE:X64  /machine:x64 cmTC_f37ab.dir\\Debug\\INT32_T.obj
+          cmTC_f37ab.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\Debug\\cmTC_f37ab.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f37ab.dir\\Debug\\cmTC_f37ab.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f37ab.dir\\Debug\\cmTC_f37ab.tlog\\cmTC_f37ab.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5q9r4\\cmTC_f37ab.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:48 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mqjwjs"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mqjwjs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mqjwjs
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bab34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:27.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\cmTC_bab34.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bab34.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\Debug\\".
+          Creating directory "cmTC_bab34.dir\\Debug\\cmTC_bab34.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bab34.dir\\Debug\\cmTC_bab34.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bab34.dir\\Debug\\cmTC_bab34.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bab34.dir\\Debug\\\\" /Fd"cmTC_bab34.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\SIZEOF_UNSIGNED_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          SIZEOF_UNSIGNED_LONG.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bab34.dir\\Debug\\\\" /Fd"cmTC_bab34.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\SIZEOF_UNSIGNED_LONG.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\Debug\\cmTC_bab34.exe" /INCREMENTAL /ILK:"cmTC_bab34.dir\\Debug\\cmTC_bab34.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mqjwjs/Debug/cmTC_bab34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-mqjwjs/Debug/cmTC_bab34.lib" /MACHINE:X64  /machine:x64 cmTC_bab34.dir\\Debug\\SIZEOF_UNSIGNED_LONG.obj
+          cmTC_bab34.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\Debug\\cmTC_bab34.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bab34.dir\\Debug\\cmTC_bab34.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bab34.dir\\Debug\\cmTC_bab34.tlog\\cmTC_bab34.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqjwjs\\cmTC_bab34.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:49 (check_type_size)"
+    checks:
+      - "Check size of unsigned long long"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-bv54hb"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-bv54hb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-bv54hb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_297ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:28.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\cmTC_297ce.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_297ce.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\Debug\\".
+          Creating directory "cmTC_297ce.dir\\Debug\\cmTC_297ce.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_297ce.dir\\Debug\\cmTC_297ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_297ce.dir\\Debug\\cmTC_297ce.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_297ce.dir\\Debug\\\\" /Fd"cmTC_297ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\SIZEOF_UNSIGNED_LONG_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          SIZEOF_UNSIGNED_LONG_LONG.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_297ce.dir\\Debug\\\\" /Fd"cmTC_297ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\SIZEOF_UNSIGNED_LONG_LONG.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\Debug\\cmTC_297ce.exe" /INCREMENTAL /ILK:"cmTC_297ce.dir\\Debug\\cmTC_297ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-bv54hb/Debug/cmTC_297ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-bv54hb/Debug/cmTC_297ce.lib" /MACHINE:X64  /machine:x64 cmTC_297ce.dir\\Debug\\SIZEOF_UNSIGNED_LONG_LONG.obj
+          cmTC_297ce.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\Debug\\cmTC_297ce.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_297ce.dir\\Debug\\cmTC_297ce.tlog\\unsuccessfulbuild".
+          Touching "cmTC_297ce.dir\\Debug\\cmTC_297ce.tlog\\cmTC_297ce.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bv54hb\\cmTC_297ce.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:51 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_INLINE"
+    directories:
+      source: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-787oj6"
+      binary: "S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-787oj6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "S:/repos/libsrtp-cisco/cmake"
+    buildResult:
+      variable: "HAVE_INLINE"
+      cached: true
+      stdout: |
+        Change Dir: S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-787oj6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a510e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 2023-08-10 00:31:29.
+        
+        Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\cmTC_a510e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a510e.dir\\Debug\\".
+          Creating directory "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\Debug\\".
+          Creating directory "cmTC_a510e.dir\\Debug\\cmTC_a510e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a510e.dir\\Debug\\cmTC_a510e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a510e.dir\\Debug\\cmTC_a510e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a510e.dir\\Debug\\\\" /Fd"cmTC_a510e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a510e.dir\\Debug\\\\" /Fd"cmTC_a510e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\Debug\\cmTC_a510e.exe" /INCREMENTAL /ILK:"cmTC_a510e.dir\\Debug\\cmTC_a510e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-787oj6/Debug/cmTC_a510e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:/repos/libsrtp-cisco/build/CMakeFiles/CMakeScratch/TryCompile-787oj6/Debug/cmTC_a510e.lib" /MACHINE:X64  /machine:x64 cmTC_a510e.dir\\Debug\\src.obj
+          cmTC_a510e.vcxproj -> S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\Debug\\cmTC_a510e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a510e.dir\\Debug\\cmTC_a510e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a510e.dir\\Debug\\cmTC_a510e.tlog\\cmTC_a510e.lastbuildstate".
+        Done Building Project "S:\\repos\\libsrtp-cisco\\build\\CMakeFiles\\CMakeScratch\\TryCompile-787oj6\\cmTC_a510e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+...

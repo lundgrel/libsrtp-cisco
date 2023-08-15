@@ -22,9 +22,15 @@ old?
 *.out
 *.app
 
+.vs
+*.log
+*.tlog
+*.lastbuildstate
+
 # srtp things
-build
+#build
 Debug
+RelWithDebInfo
 Makefile
 Root
 autom4te.cache
@@ -46,3 +52,4 @@ test/rtp_decoder
 test/rtpw
 test/srtp_driver
 test/test_srtp
+/build/CMakeFiles/CheckTypeSize
